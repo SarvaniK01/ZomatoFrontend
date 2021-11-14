@@ -1,0 +1,429 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'PT Serif', serif;
+}
+
+body{
+    background-color: #ebf2ff;
+}
+
+/* ***********************************************NAVBAR********************************************************* */
+/* CSS FOR HEADER ELEMENTS: NAVBAR> LOGO, BUTTON*/
+header{
+    background-color: white;
+}
+
+/* NAVBAR CLASS */
+.navbar{
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    box-shadow: 0.01rem 0.001rem 1rem 0.03rem rgba(0, 0, 0, 0.5);
+}
+
+/* ZOMATO LOGO */
+.zomatoLogo{
+    width: 6rem;
+}
+
+/* ORDER FOOD BUTTON IN NAVBAR */
+.orderFood{
+    height: 2rem;
+    margin-right: 1.2rem;
+    padding: 0.1rem 0.7rem;
+    border-radius: 0.3rem;
+    /* background: rgb(255,81,47);
+    background: linear-gradient(90deg, rgba(255,81,47,1) 28%, rgba(221,36,118,1) 68%); */
+    background-size: 200% auto;
+    color: white;
+    border-color: rgba(255,255,255,0);
+    transition: 0.5s;
+    background-image: linear-gradient(to right, #ff512f 0%, rgba(221,36,118,1) 51%,rgba(255,81,47,1) 100%  );
+}
+
+.orderFood:hover{
+    /* background: rgb(221,36,118);
+    background: linear-gradient(90deg, rgba(221,36,118,1) 29%, rgba(255,81,47,1) 72%); */
+    background-position: right;
+}
+
+/*  ***********************************************NAVBAR END***************************************************** */
+
+
+/*  ********************************************SECTION-1********************************************************* */
+/* DIV CONTAINING BOTH TEXT AND IMAGES */
+.text-images{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+/* DIV CONTAINING TEXT AND ORDER-NOW BUTTON */
+.text-button{
+    margin: 5rem 1rem 1rem 2rem;
+}
+
+/* TEXT INSIDE .TEXT-BUTTON */
+.hero-text{
+    color: #1d3557;
+    font-weight: 680;
+}
+
+/* ORDER-NOW BUTTON INSIDE .TEXT-BUTTON */
+.orderNow{
+    height: 2.3rem;
+    margin-right: 1.2rem;
+    margin-left: 0.7rem;
+    padding: 0.3rem 0.8rem;
+    border-radius: 0.3rem;
+    /* background: rgb(255,81,47);
+    background: linear-gradient(90deg, rgba(255,81,47,1) 28%, rgba(221,36,118,1) 68%); */
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, #ff512f 0%, rgba(221,36,118,1) 51%,rgba(255,81,47,1) 100%  );
+    color: white;
+    border-color: rgba(255,255,255,0);
+    transition: all 0.5s;
+}
+
+.orderNow:hover{
+    /* background: rgb(221,36,118);
+    background: linear-gradient(90deg, rgba(221,36,118,1) 29%, rgba(255,81,47,1) 72%); */
+    background-position: right;
+}
+
+/* IMAGES DIV CONTAINING ABSTRACT SHAPES AND HERO IMAGE */
+.images{
+    position: relative;
+    align-items: flex-end;
+    margin: 1rem 0rem 4rem 1.7rem;
+}
+
+/*(DIV SHAPE: INSIDE .IMAGES) TWO SHAPES: PATTERN AND COLORED SHAPE */
+.shapes{
+    position: relative;
+}
+
+/* ABSTRACT SHAPE INSIDE .SHAPES */
+.pattern{
+    width: 43.5rem;
+    position: absolute;
+}
+
+/* ABSTRACT COLORED SHAPE INSIDE .SHAPES */
+.shape{
+    width: 43rem;
+    position: absolute;
+}
+
+/* HERO IMAGE INSIDE .IMAGES */
+.hero-image{
+    width: 43rem;
+    height: 33rem;
+    position: relative;
+    align-self: center;
+    margin-top: 2.5rem;
+}
+
+/*  ***********************************************SECTION-1 END************************************************** */
+
+
+/*  ***********************************************SECTION-2****************************************************** */
+.section-2{
+    margin: 10rem 2rem 7rem 2rem;
+}
+
+.videoText{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.video{
+    margin-top: 1rem;
+}
+
+.video-bg{
+    position: absolute;
+    z-index: -1;
+    width: 19rem;
+    height: 10rem;
+    margin: 2rem 1rem 1rem 1rem;
+    background: rgb(255,81,47);
+    background: linear-gradient(to right, rgba(255,81,47,1) 0%, rgba(221,36,118,1) 51%, rgba(255,81,47,1) 100%);
+}
+
+.text{
+    margin-right: 5rem;
+    text-align: center;
+}
+
+.v-text{
+    font-weight: 400;
+    font-size: 1.3rem;
+    align-self: center;
+    color: #1d3557;
+}
+
+/*  ***********************************************SECTION-2 END************************************************** */
+
+
+/*  ***********************************************SECTION-3****************************************************** */
+
+.section-3{
+    margin: 0rem 3rem 2rem 2rem;
+}
+
+.sec3-heading{
+    font-size: 2.5rem;
+    text-align: center;
+    color: #1d3557;
+    font-weight: 700;
+    margin: 2rem;
+    padding: 0rem;
+}
+
+.three-cards{
+    display:flex;
+}
+
+.card{
+    border-radius: 0.7rem;
+    border: 0px;
+    border-color:rgba(255,255,255,0);
+    box-shadow: 0rem 0rem 0.5rem 0rem rgba(0, 0, 0, 0.5);
+}
+
+.card-1{
+    margin: 2rem 2rem;
+}
+
+.card-2{
+    height:27rem;
+}
+
+.card-3{
+    margin: 2rem 2rem;
+}
+
+.red-text{
+    color: red;
+}
+
+.view-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.view-more{
+    height: 2.3rem;
+    margin-right: 1.2rem;
+    margin-left: 0.7rem;
+    padding: 0.3rem 0.8rem;
+    border: 0;
+    color: white;
+    background-color: rgba(255,255,255,0);
+    font-size: 1.07rem;
+    font-weight: 500;
+}
+
+.explore-bg{
+    position: absolute;
+    z-index: -1;
+    width: 68rem;
+    height: 38rem;
+    background: rgb(255,81,47);
+    background: linear-gradient(90deg, rgba(255,81,47,1) 3%, rgba(221,36,118,1) 50%, rgba(255,81,47,1) 97%);
+    transform: skewY(-5deg);
+}
+
+/*  ***********************************************SECTION-3 END************************************************** */
+
+/*  ***********************************************SECTION-4****************************************************** */
+.section-4{
+    display: flex;
+    margin: 12rem 0rem 2rem 2rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec4-heading{
+    text-align: left;
+    color: #1d3557;
+}
+
+.row{
+    display: flex;
+}
+
+.four-images{
+    margin-left: 7.5rem;
+}
+
+/* .first-row{
+    display: flex;
+}
+
+.second-row{
+    display: flex;
+} */
+
+.img-1{
+    width: 10rem;
+    height: 6rem;
+    border-radius: 0.6rem;
+    margin: 0.3rem 0.4rem 0.2rem 0.4rem;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.5);
+}
+
+.img-2{
+    width: 12rem;
+    height: 7rem;
+    border-radius: 0.6rem;
+    margin: 0rem 0.4rem 1rem 0.4rem;
+    padding-left: 0rem;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.5);
+}
+
+.img-3{
+    width: 10rem;
+    height: 6rem;
+    border-radius: 0.6rem;
+    margin: 0.3rem 0.4rem 0.2rem 0.4rem;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.5);
+}
+
+.img-4{
+    width: 12rem;
+    height: 7rem;
+    border-radius: 0.6rem;
+    margin: 0rem 0.4rem 1rem 0.4rem;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.5);
+}
+
+/*  ***********************************************SECTION-4 END************************************************** */
+
+/*  ***********************************************SECTION-5****************************************************** */
+.section-5{
+    margin: 5rem 0rem 2rem 2rem;
+}
+
+.sec5-heading{
+    align-self: baseline;
+    color: rgb(29, 53, 87);
+}
+
+.email-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-input{
+    width: 20rem;
+    height: 2rem;
+    border: 1px solid #ee89a0;
+    background-color:  #fcedf0;
+    font-weight: 630;
+    padding: 0.4rem 0.5rem;
+    border-radius: 0.3rem;
+}
+
+.email-button{
+    border-radius: 0.3rem;
+    width: 6rem;
+    height: 2rem;
+    margin-left: 0.6rem;
+    border: 0;
+    background-size: 200% auto;
+    background-image: linear-gradient(to right, rgba(255,81,47,1) 0%, rgba(221,36,118,1) 51%, rgba(255,81,47,1) 100%);
+    transition: 0.5s;
+    color: white;
+    font-weight: 500;
+    padding: 0.4rem;
+    font-size: 0.8rem;
+}
+
+.email-button:hover{
+    background-position: right;
+}
+
+/*  ***********************************************SECTION-5 END************************************************** */
+
+
+/*  ***********************************************SECTION-6****************************************************** */
+.section-6{
+    margin: 5rem 0rem 2rem 2rem;
+}
+
+.quote-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,rgba(29, 53, 87, 0.5),rgba(29, 53, 87, 0.5)), url(./assets/seating.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70rem;
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+.quote{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    align-self: center;
+    margin: 2rem 6rem;
+}
+
+/*  ***********************************************SECTION-6 END************************************************** */
+
+/*  ***********************************************SECTION-7****************************************************** */
+
+.footer-elements{
+    display: flex;
+    justify-content: space-between;
+    margin: 9rem 0rem 2.5rem 0rem;
+    position: relative;
+    z-index: 1;
+}
+
+.zomato-logo{
+    margin: 3rem 5rem 0rem 14rem;
+    /* font-size: 3.5rem;
+    font-weight: 1000;
+    background-color: white; */
+    width: 18rem;
+    height: 6rem;
+    align-self: center;
+}
+
+.footer-list{
+    list-style: none;
+    margin: 3rem 15rem 0rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 499;
+    color: white;
+    align-items: center;
+}
+
+.footer-bg{
+    background: rgb(255,81,47);
+    background: linear-gradient(to right, rgba(255,81,47,1) 0%, rgba(221,36,118,1) 51%, rgba(255,81,47,1) 100%);
+    width: 72.6rem;
+    height: 15rem;
+    position: absolute;
+    z-index: -1;
+    align-items: center;
+    border-top-right-radius: 3rem 3rem;
+    border-top-left-radius: 3rem 3rem;
+}
+
+
+
+
+
